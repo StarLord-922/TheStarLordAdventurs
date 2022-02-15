@@ -1,7 +1,18 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+<<<<<<< HEAD
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+=======
+    <Suspense>
+      <template #default>
+    <MyHome />
+      </template >
+      <template #fallback>
+        loading ...
+      </template>
+    </Suspense>
+>>>>>>> parent of 2c042ae... last header modifications
   </div>
 </template>
 
