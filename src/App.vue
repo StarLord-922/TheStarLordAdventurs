@@ -4,7 +4,9 @@
     <router-link to="/about">About</router-link>
     <router-link to="/test">Test</router-link>
     <router-link to="/newpage">NewPage</router-link>
-  </div>
+    <router-link to="/newpage3">NewPage3</router-link>
+    <router-link to="/newpage10">NewPage10</router-link>
+
   <router-view/>
 </template>
 
@@ -18,7 +20,7 @@
 }
 
 #nav {
-  padding: 70px;
+  padding: 700px;
 }
 
 #nav a {

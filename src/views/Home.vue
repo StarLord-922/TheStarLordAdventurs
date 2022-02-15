@@ -7,6 +7,7 @@
       </template >
       <template #fallback>
         loading ...
+        1.0
       </template>
     </Suspense>
   </div>
